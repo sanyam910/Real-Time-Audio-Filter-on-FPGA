@@ -6,13 +6,13 @@ module single_channel_fir_filter #(
     input wire clk,
     input wire [FILTERS-1:0] modes,
     
-    //AXIS SLAVE INTERFACE
+    // SLAVE INTERFACE
     input  wire [DATA_WIDTH-1:0] fpga_data,
     input  wire fpga_valid,
     input  wire fpga_last,
     output reg  fpga_ready = 1'b1,
     
-    // AXIS MASTER INTERFACE
+    // MASTER INTERFACE
     output reg [DATA_WIDTH-1:0] pmod_data = 1'b0,
     output reg pmod_valid = 1'b0,
     output reg pmod_last = 1'b0,
