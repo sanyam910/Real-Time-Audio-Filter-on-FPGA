@@ -48,7 +48,7 @@ Audio In → I2S Receiver → FIR Filter → I2S Transmitter → Audio Out
 - Real-time processing with minimal delay  
 
 
-## ⭐ Acknowledgements
+## Acknowledgements
 - Digilent documentation  
 - DSP and FPGA learning resources  
 - Open-source FPGA/Verilog communities
