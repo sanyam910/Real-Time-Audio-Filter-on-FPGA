@@ -1,11 +1,3 @@
-%--------------------------------------------------------------------------
-% Copyright (c) 2023 Syed Fahad
-%
-% Project Name: Real-time Audio Processing through FIR filters on Basys-3
-% Description: Script to generate hexadecimal coefficients for a desired FIR filter
-%
-%--------------------------------------------------------------------------
-
 sampling_freq = 44100;
 cutoff_freq = 1000;
 taps = 89; % Number of taps of the filter
